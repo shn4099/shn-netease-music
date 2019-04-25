@@ -1,0 +1,37 @@
+{
+	"user":[
+		{"name":"首页","url":"/"},
+		{
+			"name":"前端","url":"jhc",
+			"child":[
+				{"name":"JavaScript","url":"JS"},
+				{"name":"Html","url":"html"},
+				{"name":"Css","url":"css"}
+			]
+		},
+		{	
+			"name":"后端","url":"pjg",
+			"child":[
+				{"name":"Python","url":"python"},
+				{"name":"Java","url":"java"},
+				{"name":"Go","url":"go"}
+			]
+		},
+		{"name":"财会金融","url":"jlcc",
+			"child":[
+				{"name":"初级会计","url":"junnior-account"},
+				{"name":"中级会计","url":"lever-account"},
+				{"name":"注册会计(CPA)","url":"cpa"},
+				{"name":"特许金融分析师(CFA)","url":"cfa"}
+			]
+		},
+		{"name":"案例及总结","url":"wafc",
+			"child":[
+				{"name":"前端案例总结","url":"webcase"},
+				{"name":"后端案例总结","url":"aftercase"},
+				{"name":"财会金融案例","url":"financecase"}
+			]
+		},
+		{"name":"其他","url":"else"}
+	]
+}
